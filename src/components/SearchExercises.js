@@ -50,9 +50,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb='49px'
         textAlign='center'
-      >
-        Awesome Exercises You <br /> Should Know
-      </Typography>
+      ></Typography>
       <Box position='relative' mb='72px'>
         <TextField
           height='76px'
@@ -89,7 +87,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           data={bodyParts}
           setBodyPart={setBodyPart}
           bodyPart={bodyPart}
-          bodyParts={bodyParts}
+          bodyParts
         />
       </Box>
     </Stack>
